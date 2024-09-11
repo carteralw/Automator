@@ -7,6 +7,6 @@ node {
     }
 
     stage('lib call'){
-        hello(name:"Al", dayOfWeek:"Wednesday")
+        helloWorld(name:"Al", dayOfWeek:"Wednesday")
     }
 }
