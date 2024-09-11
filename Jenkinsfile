@@ -6,7 +6,12 @@ node {
         echo "My name is ${NAME}"
     }
 
-    stage('lib call'){
+    /*stage('lib call'){
         helloWorld(name:"Al", dayOfWeek:"Wednesday")
+    }*/
+    stage('timers'){
+        timed('build'){
+            echo 'emitting information'
+        }()
     }
 }
