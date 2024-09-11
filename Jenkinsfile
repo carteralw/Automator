@@ -6,5 +6,5 @@ node {
         echo "My name is ${NAME}"
     }
 
-    hello()
+    hello(name:"Al", dayOfWeek:"Wednesday")
 }
