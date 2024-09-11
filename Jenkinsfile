@@ -9,8 +9,8 @@ node {
     /*stage('lib call'){
         helloWorld(name:"Al", dayOfWeek:"Wednesday")
     }*/
-    stage('timers'){
-        timed('build'){
+    stage('clock'){
+        timer('build'){
             echo 'emitting information'
         }()
     }
