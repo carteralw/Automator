@@ -6,5 +6,7 @@ node {
         echo "My name is ${NAME}"
     }
 
-    hello(name:"Al", dayOfWeek:"Wednesday")
+    stage('lib call'){
+        hello(name:"Al", dayOfWeek:"Wednesday")
+    }
 }
