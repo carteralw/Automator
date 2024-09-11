@@ -1,4 +1,5 @@
-@Library("pipeline-library")
+
+library 'pipeline-library'
 node {
     /* ... snip */
     withEnv(['NAME=Al']) {
